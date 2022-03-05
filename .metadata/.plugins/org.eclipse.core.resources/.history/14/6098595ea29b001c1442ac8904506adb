@@ -1,0 +1,5 @@
+package com.bel.training.service;
+
+public interface ProductConsumer {
+
+}

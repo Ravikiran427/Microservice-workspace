@@ -1,0 +1,17 @@
+package com.bel.training.model;
+
+public class Product {
+
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long productId;
+    private String productName;
+    private Double price;
+    
+    @JsonIgnore
+    @OneToOne
+    @JoinColumn(name="Cust_ID")
+    private Customer customer;
+	
+}

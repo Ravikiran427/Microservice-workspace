@@ -1,0 +1,6 @@
+package com.bel.training;
+
+@Service
+public class AccountService {
+
+}

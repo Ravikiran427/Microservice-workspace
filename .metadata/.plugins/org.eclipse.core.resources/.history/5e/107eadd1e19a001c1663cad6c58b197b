@@ -1,0 +1,8 @@
+package com.bel.training;
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class AccountController {
+
+}

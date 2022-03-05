@@ -1,0 +1,14 @@
+package com.bel.training.model;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@Entity
+@Data
+public class Product {
+
+	
+}

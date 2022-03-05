@@ -1,0 +1,6 @@
+package com.bel.training.service;
+
+@Service
+public class CustomerService {
+
+}

@@ -1,0 +1,5 @@
+package com.bel.training.zuulgateway;
+
+public class SimpleFilter {
+
+}

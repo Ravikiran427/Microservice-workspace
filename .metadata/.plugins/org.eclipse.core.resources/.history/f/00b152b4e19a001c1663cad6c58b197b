@@ -1,0 +1,7 @@
+package com.bel.training;
+
+
+@RestController
+public class AccountController {
+
+}

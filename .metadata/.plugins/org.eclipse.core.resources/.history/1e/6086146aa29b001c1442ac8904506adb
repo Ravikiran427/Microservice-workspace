@@ -1,0 +1,9 @@
+package com.bel.training.service;
+
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+public interface ProductConsumer {
+
+	
+}

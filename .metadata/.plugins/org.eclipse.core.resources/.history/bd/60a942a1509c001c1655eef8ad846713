@@ -1,0 +1,12 @@
+# Application Config
+server.port=8082
+spring.application.name=API-Gateway
+
+# Eureka Config
+eureka.client.eureka-server-port=8761
+
+# Test service mapping
+zuul.routes.uservice.url=http://localhost:6002
+
+#Ribbon is auto integrated with Zuul and for this exercise we are not using that.
+ribbon.eureka.enabled=true

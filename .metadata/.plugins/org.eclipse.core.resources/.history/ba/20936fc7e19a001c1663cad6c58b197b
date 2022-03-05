@@ -1,0 +1,8 @@
+package com.bel.training;
+
+import org.springframework.*;
+
+@RestController
+public class AccountController {
+
+}
